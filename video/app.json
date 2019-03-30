@@ -1,0 +1,32 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "视频去水印",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "color": "#333",
+    "selectedColor": "#33cc66",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "视频解析",
+        "iconPath": "static/images/online.png",
+        "selectedIconPath": "static/images/online-s.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "我的",
+        "iconPath": "static/images/playing.png",
+        "selectedIconPath": "static/images/playing-s.png"
+      }
+    ]
+  }
+}

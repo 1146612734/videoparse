@@ -1,0 +1,54 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.tips_t {
+  color: #666;
+  font-size: 12px;
+  display: block;
+  margin-bottom: 10px;
+}
+.tips_b {
+  color: #666;
+  font-size: 12px;
+  display: block;  
+}
+li {
+  display: block;
+  margin-bottom: 10px;
+}
+.video_input {
+  border: 1px solid #ccc;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0 3px;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.btn_box {
+  margin-top: 20rpx;
+}
+.btn_box .btn {
+  color: #fff;
+  background-color: #33cc66;
+  border: 0;
+}

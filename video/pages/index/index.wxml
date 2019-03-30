@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+  <view>
+    <div class="tips_t">使用方法</div>
+    <ul class="tips_b">
+      <li>1.打开抖音、快手、火山小视频等视频APP，点开某个视频，点击分享按钮，在分享弹出框中点击“复制链接”</li>
+      <li>2.将刚刚复制的链接粘贴到视频解析输入框中</li>
+    </ul>
+  </view>
+  <view>
+    <input class="video_input" placeholder="请输入视频链接" />
+  </view>
+  <view class="btn_box">
+    <button class="btn" bindparseVideo="parseVideo"> 解析视频 </button>
+  </view>
+</view>
